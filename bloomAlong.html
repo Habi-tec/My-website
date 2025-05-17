@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>bloomAlone Project 1</title>
+    <link rel="stylesheet" href="Bloomalong.css">
+    <style>
+       ::placeholder {
+           color:black;
+           box-width: 80%;
+           font-weight: 500;
+       }
+    </style>
+    </head>
+    <body>
+
+     <center><img class="logo" src="logo.png" alt="codeBloom logo"></center>
+        <form action="#" method="post" target="_blank"> 
+        <div class="container">
+            <h1 class="head">STUDENT LOGIN</h1>
+            <hr><br>
+            <div class="info">
+            <label for="tpn" >Identity Number:</label><br>
+            <input type="number" id="tpn" name="identity number" placeholder="Student/Applicant"><br><br>
+            <label for="psw">Password:</label><br>
+         <input type="password" id="psw" name="password" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[0-9])(?=.*[&%#@+]).{8,}" title="Must contain a letter(uppercase),a number and a symbol that is at least 8 characters or more"><br>
+         </div>
+         <p class="fpw">Forget Password?</p>
+         <center><button class="btn" type="submit">Login</button></center>
+        </div>
+        </form>
+    </body>
+</html>
