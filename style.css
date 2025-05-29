@@ -1,0 +1,61 @@
+.logo{
+    width:30%;
+    
+}
+body{
+    background-image: url("logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+    
+}
+.container{
+    background-color:#ff007f75;
+    width: 70%;
+    padding: 25px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.head{
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 2px; 
+}
+.info{
+    color:white;
+    font-weight: 400;
+    margin: 20px 0 50px;
+}
+
+
+.fpw{
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 2px;  
+}
+.btn{
+    margin:6px 0px 3px;
+    width:65vw;
+    padding: 15px 0px;
+    background-color: #000000;
+    color:white;
+    font-weight:900;
+    border:none;
+}
+#tpn{
+    height: 30px;
+    width: 65vw;
+    padding: 0 5px;
+    margin-top: 6px;
+}
+#psw{
+    height: 30px;
+    width: 65vw;
+    padding: 0 5px;
+    margin-top: 6px;
+}
